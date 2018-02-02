@@ -1,0 +1,79 @@
+a{text-decoration: none!important;}
+body{
+	min-width: 1000px;
+	overflow: auto;
+}
+.modal-body form{
+	width : 95%;
+	height : 95%;
+	display: block;
+}
+/*验证图标位置*/
+.row > .col-sm-4,.row > .col-sm-8{position: relative;}
+.form-control-feedback{
+	left: 96%;
+    position: absolute;
+}
+textarea.form-control{
+	overflow-x:hidden; 
+}
+/*用于缩进treegrid中末子节点的缩进样式*/
+.childIndent{
+	width : 15px;
+	float : left;
+	height : 15px;
+	display: block;
+}
+/*用于高级条件查询框的样式*/
+
+.cx_col{
+	padding : 0 10px;
+	display: inline-block;
+	position: relative;
+}
+.cx_input{	
+	width : 140px;
+	display: inline-block;
+}
+.cx_label{
+	/* //width : 100px; */
+	display:block;
+	float:left;
+	margin-right:5px;
+	line-height:30px;
+	text-align: right;
+	font-weight: 500;
+}
+
+/*弹窗录入*/
+	.modalBoduHeight {overflow-y:auto;}
+ @media(min-height: 601px)){
+	.modalBoduHeight {overflow-y:auto;height: 800px;}
+}
+@media(max-height:600px){
+	.modalBoduHeight {max-height:400px;overflow-y:auto;}
+	.modalBoduHeight >form{ display: block;  margin-bottom: 20px;}	
+}
+
+/*详情展示*/
+	
+	.detailCss{margin-bottom: 0;width:100%;border: none;}
+	.detailCss > tbody > tr{boder:none!important;font-size: 16px;} 
+	  
+	.detailCss > tbody > tr > td{padding: 10px 5px;}
+	.detailCss > tbody > tr  img{width:50%!important;height: 50%!important;}
+/* 	.detailCss > tbody > tr:nth-child(odd)> td:nth-child(odd){border-left:1px dashed #666!important;} 
+	.detailCss > tbody > tr:nth-child(even)> td:nth-child(odd){border-left:2px dashed #bbb!important;}  */
+	.detailCss > tbody > tr > td:nth-child(odd){font-weight: 400;text-align: center;color:#666;}
+	.detailCss > tbody > tr > td:nth-child(even){font-weight: 500;text-align: left;font-size: 14px;}
+
+/*表格居中放大选择框*/
+ tr > td{vertical-align:middle!important;}
+ tr > td > input{width:15px!important;height:15px!important;}
+ /*树形表格盒子*/
+ .tbBox{overflow: auto;border: 2px solid #eee;display: block;}
+ .ulBox{overflow: auto;border: 2px solid #eee;}
+ 
+.detailCss  td{word-break:break-all!important;white-space: normal!important;}
+/*必填项*/
+.redHei{color: red;font-weight: 800; vertical-align:middle;}

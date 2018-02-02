@@ -1,0 +1,58 @@
+body{background: #fff;margin: 0;}
+.navTable{height:50px; background: #fff;width: 100%;border-bottom: 12px solid #ccc;}
+.navTable > .titleB {float: left;line-height: 40px;width: 200px;text-align: center;border-right: 15px solid #ccc;font-size: 1.4em;background: #0099FF;color: #fff;}
+.tableBox {position: relative;}
+/* #toolbar{position: absolute;top:20px;left:0;z-index: 200;} */
+#toolbar >button{margin-left: 15px}
+/* .tableBox > .news{position: absolute;top:20px;z-index: 200;}*/
+#toolbar > .search{line-height: 19px;    margin-top: 0;  margin-bottom: 0; } 
+.titleActive{background: #0099FF;color: #fff;}
+.titleActive:hover{color: #fff!important;}
+.tableBox{padding: 10px;}
+.btn-link:hover{text-decoration: none!important;}
+.RoleOfA{color: #2fb254;}
+.RoleOfB{color: #609FFF;}
+.RoleOfC{color: #a04463;}
+.fixed-table-container{border: 0 solid transparent !important;}
+table> thead> tr> th,
+table> tbody> tr> td{border: 0 solid transparent !important;font-weight: 500;}
+table> thead > tr {border-bottom: 3px solid #979797!important;}
+table> tbody >tr:nth-child(odd){background:#F0F0F0;}
+.navTable > .tableChange{float: left;line-height: 40px;text-align: center;padding: 0 20px;}
+.navTable > .tableChange:hover{color: #999;}
+#modalDel > .modal-dialog{width: 300px;margin: 10% auto;}
+.modal .modal-dialog{width: 800px;}
+.modal .SingleWidth{width: 500px;}
+.form-group{margin-bottom: 0!important;}
+.modal .modal-body > form{display: inline-block;}
+/*双锟斤拷*/
+.modal .modal-body > .doubleColumn > div{margin-top:15px;width: 49%;display: inline-block;vertical-align:middle;}
+.modal .modal-body > .doubleColumn > div > .laspan{display: inline-block;width: 35%;text-align: right;padding-right: 10px;float: left;line-height: 35px;font-size: 1em}
+.modal .modal-body > .doubleColumn > div > .inbox{display: inline-block;width: 53%;resize: none;position: relative;} 
+.modal .modal-body > .doubleColumn > div > .inbox > textarea{resize: none;height:50px!important;}
+/*某锟斤拷锟斤拷双锟斤拷占一锟斤拷  */
+.modal .modal-body > .doubleColumn > .doubles{width: 95%;display: inline-block;float: left;vertical-align:middle;}
+.modal .modal-body > .doubleColumn > .doubles > .laspan{display: inline-block;width: 18%;text-align: right;padding-right: 10px;float: left;line-height: 35px;font-size: 1em}
+.modal .modal-body > .doubleColumn > .doubles > .inbox{display: inline-block;width: 79.5%;resize: none;position: relative;} 
+.modal .modal-body > .doubleColumn > div > .inbox > textarea{resize: none;height:50px!important;}
+
+/* 锟斤拷锟斤拷 */
+.modal .modal-body > .SingleColumn{width: 600px;display: inline-block;}
+.modal .modal-body > .SingleColumn > div {width: 95%;display: inline-block;vertical-align:middle;margin-top:15px;}
+.modal .modal-body > .SingleColumn > div > .laspan{display: inline-block;width: 19%;text-align: right;padding-right: 10px;float: left;line-height: 35px;font-size: 1em}
+.modal .modal-body > .SingleColumn > div > .inbox{display: inline-block;width: 60%;resize: none;position: relative;} 
+.modal .modal-body > .SingleColumn > div > .inbox > textarea{resize: none;height:50px!important;}
+textarea{resize: none!important;}
+/*锟斤拷证锟斤拷锟斤拷示锟斤拷锟狡讹拷*/
+.form-control-feedback{right:-30px!important;}
+
+.btn-default{height: 34px!important;}
+
+/* .boxAll{width:100%;height:100%;} */
+
+
+.has-error .select2-selection {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}

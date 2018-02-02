@@ -1,0 +1,7 @@
+#roleList > div{width:49%;display: inline-block;}
+#roleList > div > div{height: 400px;overflow: auto;}
+.border{border-right: 2px solid #eee; }
+#roleList > h4{margin-left: 5px}
+ul > li{list-style: none;position: relative;line-height: 25px;}
+ul > li >input{width:20px;height:18px;position: absolute;}
+ul > li >label{margin-left: 20px;line-height: 20px;font-weight: 400;color: #666;}

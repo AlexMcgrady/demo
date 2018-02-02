@@ -1,0 +1,45 @@
+body{
+	min-width: 1000px;
+	overflow: auto;
+}
+.treeMenu{
+	border-right:4px solid #eee;
+	float: left;			
+	padding:8px;
+	height: 80%;
+}
+.ulList{
+	list-style: none;	
+	text-align: left;
+	margin-top: 10px;
+}
+.ulList > li{
+	width:110%;
+	display: block;
+	margin-left: -40px;
+	line-height: 35px;			
+	padding-left: 10%;
+	border-bottom: 1px dashed #ccc;
+}
+.ulList > li > a {
+	display: block;
+	width: 100%;
+	color:#444;
+	font-weight: 500;
+}
+.ulList > li > a > span{font-size: 12px;}
+.sel{
+	background: rgba(0,153,255,.8);			
+}
+.sel > a{color:#fff!important;}
+.ulList > li:hover{
+	background: rgba(0,153,255,.4);			
+}
+.ulList > li:hover > a{
+	color:#fff!important;
+}
+.listTableBox{		
+	width:80%;
+	float: left;
+}
+		
